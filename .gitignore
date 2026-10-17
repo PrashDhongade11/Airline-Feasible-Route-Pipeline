@@ -1,0 +1,12 @@
+docker/.env
+.env
+
+cat << 'EOF' >> .gitignore
+
+# IDE and Python Cache files
+.idea/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+EOF

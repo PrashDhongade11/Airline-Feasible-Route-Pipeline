@@ -1,0 +1,104 @@
+aws:
+  s3_bucket: "local"
+  region: "local"
+
+pipeline:
+  environment: "dev"
+
+airports:
+  DEL:
+    iata_code: "DEL"
+    icao_code: "VIDP"
+    name: "Indira Gandhi International Airport"
+    city: "New Delhi"
+    state: "Delhi"
+    latitude: 28.5562
+    longitude: 77.1000
+  BOM:
+    iata_code: "BOM"
+    icao_code: "VABB"
+    name: "Chhatrapati Shivaji Maharaj International Airport"
+    city: "Mumbai"
+    state: "Maharashtra"
+    latitude: 19.0896
+    longitude: 72.8656
+  BLR:
+    iata_code: "BLR"
+    icao_code: "VOBL"
+    name: "Kempegowda International Airport"
+    city: "Bengaluru"
+    state: "Karnataka"
+    latitude: 13.1986
+    longitude: 77.7066
+  MAA:
+    iata_code: "MAA"
+    icao_code: "VOMM"
+    name: "Chennai International Airport"
+    city: "Chennai"
+    state: "Tamil Nadu"
+    latitude: 12.9941
+    longitude: 80.1709
+  CCU:
+    iata_code: "CCU"
+    icao_code: "VECC"
+    name: "Netaji Subhash Chandra Bose International Airport"
+    city: "Kolkata"
+    state: "West Bengal"
+    latitude: 22.6520
+    longitude: 88.4463
+  HYD:
+    iata_code: "HYD"
+    icao_code: "VOHS"
+    name: "Rajiv Gandhi International Airport"
+    city: "Hyderabad"
+    state: "Telangana"
+    latitude: 17.2403
+    longitude: 78.4294
+  AMD:
+    iata_code: "AMD"
+    icao_code: "VAAH"
+    name: "Sardar Vallabhbhai Patel International Airport"
+    city: "Ahmedabad"
+    state: "Gujarat"
+    latitude: 23.0772
+    longitude: 72.6347
+  PNQ:
+    iata_code: "PNQ"
+    icao_code: "VAPO"
+    name: "Pune Airport"
+    city: "Pune"
+    state: "Maharashtra"
+    latitude: 18.5822
+    longitude: 73.9197
+  COK:
+    iata_code: "COK"
+    icao_code: "VOCI"
+    name: "Cochin International Airport"
+    city: "Kochi"
+    state: "Kerala"
+    latitude: 10.1520
+    longitude: 76.4019
+  GOI:
+    iata_code: "GOI"
+    icao_code: "VOGO"
+    name: "Dabolim Airport"
+    city: "Goa"
+    state: "Goa"
+    latitude: 15.3808
+    longitude: 73.8313
+  JAI:
+    iata_code: "JAI"
+    icao_code: "VIJP"
+    name: "Jaipur International Airport"
+    city: "Jaipur"
+    state: "Rajasthan"
+    latitude: 26.8242
+    longitude: 75.8122
+  LKO:
+    iata_code: "LKO"
+    icao_code: "VILK"
+    name: "Chaudhary Charan Singh International Airport"
+    city: "Lucknow"
+    state: "Uttar Pradesh"
+    latitude: 26.7606
+    longitude: 80.8893
